@@ -1,0 +1,12 @@
+#footer {
+  background-color: #f8f8f8;
+  margin: 20px 0px 20px 0px;
+  padding-top: 30px;
+}
+#footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+#footer img {
+  width: 160px;
+}
