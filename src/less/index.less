@@ -1,0 +1,182 @@
+@colorWhite:#fff;
+@colorBlue:#00a8ff;
+@bgPath:"../../images/";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+//顶部导航
+.navbar{
+    border-radius:0px;
+    margin-bottom:0px;
+    border: 0px;
+}
+.navbar-inverse{
+    .navbar-brand{
+        color: @colorWhite;
+        font-size: 26px;
+        font-style: oblique;
+        padding-left: 30px;
+        
+        span{
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    }
+    
+    .navbar-nav{
+        &>li{
+            &>a{
+                color:@colorWhite;
+                
+                &:hover{
+                    color: @colorBlue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// 导航栏样式
+.navbar-default{
+    height: 82px;
+    border: solid 1px transparent;
+
+    .navbar-brand{
+        padding-top: 25px;
+        margin-right: 5px;
+    }
+
+    .navbar-nav{
+        &>li{
+            &>a{
+                line-height: 51px;
+                min-width: 80px;
+                font-size: 16px;
+                text-align: center;
+                
+                &:hover{
+                    background-color: #f0f0f0;
+                }
+            }
+        }
+    }
+}
+
+
+// 轮播图样式
+.carousel{
+    margin: 8px auto;
+    max-width: 1328px;
+}
+
+//三大特色
+#feature{
+    .row{
+        
+        div{
+            background: url("@{bgPath}feature01.png") no-repeat left center;
+            min-height: 65px;
+            padding-left: 80px;
+            
+            h4{
+              font-weight: bold;  
+            }
+        }
+        
+        div:nth-of-type(2){
+           background-image: url("@{bgPath}feature02.png"); 
+        }
+        
+        div:nth-of-type(3){
+           background-image: url("@{bgPath}feature03.png"); 
+        }
+    }
+}
+
+
+//投资列表
+#invest,#article{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+//公共的panel
+.panel{
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.panel-default{
+    border: none;
+    
+    &>.panel-heading{
+        background-color: transparent;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        height: 40px;
+        margin-left: 15px;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        h1{
+            font-size: 24px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            margin-top: 6px;
+            color: @colorBlue;
+            font-weight: bold;
+            border-bottom: 3px solid @colorBlue;
+        }
+        
+        p{
+            margin: 0px;
+            padding: 0px;
+            line-height: 60px;
+            line-height: 39px;
+
+            a{
+                padding: 6px 12px;
+            }
+        }
+    }
+    
+    .panel-body{
+        
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            
+            li{
+                line-height: 26px;
+                border-bottom: dotted 1px #ccc;
+                
+                span{
+                    float: right;
+                    color: #999;
+                }
+                
+            }
+        }
+    }
+}
+
+// 页脚
+#footer{
+    background-color: #f8f8f8;
+    margin: 20px 0px 20px 0px;
+    padding-top: 30px;
+
+    li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    img{
+        width: 160px;
+    }
+}
+
