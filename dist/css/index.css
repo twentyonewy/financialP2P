@@ -43,6 +43,11 @@
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f0f0f0;
 }
+@media all and (max-width: 990px) {
+  .width990 {
+    display: none;
+  }
+}
 .carousel {
   margin: 8px auto;
   max-width: 1328px;
