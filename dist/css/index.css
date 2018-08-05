@@ -27,6 +27,11 @@
 .tooltip img {
   width: 120px;
 }
+@media all and (max-width: 990px) {
+  .navbar-inverse .nav li a {
+    padding: 14px !important;
+  }
+}
 .navbar-default {
   border: solid 1px transparent;
 }
@@ -42,11 +47,6 @@
 }
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f0f0f0;
-}
-@media all and (max-width: 990px) {
-  .width990 {
-    display: none;
-  }
 }
 .carousel {
   margin: 8px auto;

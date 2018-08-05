@@ -47,6 +47,18 @@
     }
 }
 
+//屏幕宽度在990以下时就隐藏超宽的列
+@media all and (max-width:990px){
+    .navbar-inverse{
+        .nav{
+        li{
+            a{
+            padding: 14px !important;
+            }
+        }
+        }
+    }
+ }
 
 
 // 导航栏样式
@@ -74,9 +86,3 @@
     }
 }
 
-//屏幕宽度在990以下时就隐藏超宽的列
-@media all and (max-width: 990px){
-    .width990{
-        display: none;
-    }
-}
