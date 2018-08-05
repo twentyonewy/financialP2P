@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>借贷网</title>
+    <title>P2P金融借贷平台</title>
+    <!-- icon图标 -->
+    <link rel="shortcut icon" href="./images/P2Picon.ico" />
     <!-- 视口 -->
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
     <!-- 引入bootstrap -->
