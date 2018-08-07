@@ -1,0 +1,16 @@
+#rechargelist {
+  width: 100%;
+  margin: 0 auto;
+}
+#rechargelist .panel-heading {
+  display: flex;
+  justify-content: space-between;
+}
+#rechargelist .panel-body {
+  padding: 0;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
+}

@@ -49,3 +49,33 @@
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f0f0f0;
 }
+.panel {
+  margin-top: 20px;
+}
+.panel form {
+  width: 60%;
+  margin: 0px auto;
+}
+.panel form button {
+  width: 160px;
+}
+@media all and (max-width: 620px) {
+  .panel form {
+    width: 100%;
+  }
+  .panel form button {
+    width: 100%;
+  }
+}
+#footer {
+  background-color: #f8f8f8;
+  margin: 20px 0px 20px 0px;
+  padding-top: 30px;
+}
+#footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+#footer img {
+  width: 160px;
+}

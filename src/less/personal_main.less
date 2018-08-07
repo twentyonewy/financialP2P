@@ -1,0 +1,74 @@
+#personal{
+    width: 100%;
+    margin: 0 auto;
+
+    .list-group{
+
+        .list-group-item{
+           padding: 15px; 
+        }
+        
+        .personal_top{
+            display: flex;
+
+            .personal_portrait{
+                padding: 10px;
+                border: 1px solid #ccc;
+
+                img{
+                    width: 72px;
+                    height: 72px;     
+                }
+            }
+
+            .personal_information{
+                margin: 5px 0 0 15px;
+            }
+        }
+
+        .personal_bottom{
+           
+
+            .personal_money{
+                font-size: 18px;
+                display: flex;
+
+                p{
+                    span{
+                            color:#337ab7; 
+                    }
+                }              
+            }
+
+            .personal_choise{
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            .personal_menu{
+                padding: 10px;
+        
+                    div{
+                        background: url("../../images/shiming.png") no-repeat left center;
+                        min-height: 65px;
+                        padding-left: 60px;                        
+                        h4{
+                          font-weight: bold;  
+                        }
+                    }
+                    
+                    div:nth-of-type(2){
+                       background-image: url("../../images/shouji.jpg"); 
+                    }
+                    
+                    div:nth-of-type(3){
+                       background-image: url("../../images/youxiang.jpg"); 
+                    }
+                    div:nth-of-type(4){
+                        background-image: url("../../images/baozhan.jpg"); 
+                     }
+            }
+        }
+        
+    }
+}

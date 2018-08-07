@@ -1,0 +1,21 @@
+#userinfo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+#userinfo .remind {
+  text-align: center;
+  color: #a94442;
+}
+#userinfo .upload {
+  display: flex;
+}
+#userinfo .upload div {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #ccc;
+  margin-right: 60px;
+  text-align: center;
+}
+#userinfo .text_help {
+  color: #337ab7;
+}

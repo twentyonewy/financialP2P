@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员中心实名认证</title>
+    <!-- icon图标 -->
+    <link rel="shortcut icon" href="./images/P2Picon.ico" />
+    <!-- 视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+    <!-- 引入bootstrap -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <!-- 引入图标字体 -->
+    <link rel="stylesheet" href="./lib/fontawesome/css/fontawesome-all.min.css">
+    <!-- 引入personal样式 -->
+    <link rel="stylesheet" href="./dist/css/realAuth.css">
+    <!-- 兼容IE8以下浏览器 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- 模板内容的开始 -->
+    <div id="usermain" class='container'>
+        <div class="row container">
+            <!-- 会员中心的完善用户信息开始 -->
+            <div id="userinfo" class="panel panel-default">
+                <div class="panel-heading">实名认证</div>
+                <p class="remind">为保护您账户安全，实名认证成功之后不能修改信息，请认真填写！</p>
+                <div class="container panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">用户名</label>
+                            <p class="col-sm-10">小强</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">姓名</label>
+                            <div class="col-sm-3">
+                            <input type="name" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">性别</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>男</option>
+                                    <option>女</option>
+                                </select>
+                            </div>   
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">证件类型</label>
+                            <div class="col-sm-3">
+                                <select class="form-control">
+                                    <option>身份证</option>
+                                    <option>驾驶证</option>
+                                    <option>军官证</option>
+                                </select>
+                            </div>   
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">证件号码</label>
+                            <div class="col-sm-3">
+                            <input type="idnum" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">出生日期</label>
+                            <div class="col-sm-3">
+                            <input type="birth" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">证件地址</label>
+                            <div class="col-sm-6">
+                            <input type="idaddress" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">身份证照片</label>
+                            <div class="col-sm-6">
+                                <p class="text_help">请点击“选择图片”,选择证件的正反两面照片。</p>
+                                <div class="upload col-sm-6">
+                                    <div class="form-group">
+                                            <label for="exampleInputFile">上传正面</label>
+                                            <input type="file" id="exampleInputFile">
+                                        </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputFile">上传背面</label>
+                                        <input type="file" id="exampleInputFile">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-primary">提交认证</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- 会员中心的完善用户信息结束 -->
+        </div>
+    </div>
+    
+
+
+    <!-- 引入jQuery库 -->
+    <script src="./lib/jquery/jquery.js"></script>
+    <!-- 引入bootstrap核心js库 -->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- 自定义特效 -->
+    <script src="./src/javascript/p2pEffects.js"></script>
+</body>
+</html>
